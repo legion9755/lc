@@ -8,6 +8,7 @@ import Visualization from "../component/Visualization";
 import Integration from "../component/Integration";
 import Interaction from "../component/Interaction";
 import Collab from "../component/Collab";
+import Login from "../component/login";
 
 export const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ export const router = createBrowserRouter([
   {
     path: "/collab",
     element: <Collab></Collab>
+  },
+  {
+    path: "/login",
+    element: <Login></Login>
   },
 ]);
 

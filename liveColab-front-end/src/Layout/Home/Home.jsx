@@ -6,7 +6,7 @@ const Home = () => {
     const navigate = useNavigate();
 
     const handleGetStarted = () => {
-        navigate('/signup'); // Navigate to the signup page
+        navigate('/login'); // Navigate to the signup page
     };
 
    
