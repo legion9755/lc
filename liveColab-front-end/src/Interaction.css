@@ -1,0 +1,80 @@
+/* src/App.css (or wherever you prefer to keep your styles) */
+
+body {
+    font-family: sans-serif;
+    margin: 0; /* Remove default body margin */
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text for contrast */
+  }
+  
+  .visualizations-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto; /* Center the container */
+    background-color: #fff; /* White container background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .visualizations-container h1 {
+    color: #333;
+    text-align: center; /* Center the title */
+    margin-bottom: 20px;
+  }
+  
+  .chart-controls {
+    display: flex;
+    flex-wrap: wrap; /* Allow controls to wrap on smaller screens */
+    gap: 10px; /* Spacing between controls */
+    margin-bottom: 20px;
+    align-items: center; /* Vertically align items */
+    justify-content: center; /* Center controls horizontally */
+  }
+  
+  .chart-controls label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .chart-controls select,
+  .chart-controls input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    flex: 1 0 150px; /* Distribute space evenly */
+    max-width: 200px;
+  }
+  
+  .chart-controls select:focus,
+  .chart-controls input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25); /* Blue focus style */
+  }
+  
+  .chart-area {
+    height: 400px; /* Set a fixed height for the chart area */
+    position: relative; /* Needed for proper canvas sizing */
+  }
+  
+  /* Style for the chart canvas specifically (if needed) */
+  .chart-area canvas {
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 400px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .chart-controls {
+      flex-direction: column; /* Stack controls vertically on smaller screens */
+      align-items: stretch; /* Stretch controls to full width */
+    }
+  
+    .chart-controls select,
+    .chart-controls input[type="text"] {
+      max-width: 100%;
+      flex: 1 1 100%;
+    }
+  }

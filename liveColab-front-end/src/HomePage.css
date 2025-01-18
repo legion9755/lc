@@ -1,0 +1,85 @@
+/* HomePage.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure footer sticks to bottom */
+    font-family: sans-serif;
+    color: #333;
+    background-color: #f8f8f8; /* Light background */
+    padding: 20px; /* Add some padding */
+}
+
+.home-header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff; /* White header background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.home-header h1 {
+    color: #007bff; /* Blue heading */
+}
+
+.features-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 20px;
+}
+
+.feature-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature-card h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #e9ecef; /* Light gray background */
+    margin-top: 40px;
+}
+
+.get-started-button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-button:hover {
+    background-color: #0056b3;
+}
+
+.home-footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto; /* Push footer to bottom */
+    background-color: #343a40; /* Dark footer background */
+    color: #fff;
+}
+
+/* HomePage.css */
+/* ... other styles */
+
+.feature-card.clickable {
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+    transition: transform 0.2s ease; /* Add a smooth transform transition */
+}
+
+.feature-card.clickable:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Add a more pronounced shadow */
+}

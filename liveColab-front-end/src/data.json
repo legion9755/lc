@@ -1,0 +1,44 @@
+[
+    {
+      "category": "Product A",
+      "sales": 120,
+      "profit": 30,
+      "customers": 55
+    },
+    {
+      "category": "Product B",
+      "sales": 85,
+      "profit": 15,
+      "customers": 32
+    },
+    {
+      "category": "Product C",
+      "sales": 150,
+      "profit": 45,
+      "customers": 70
+    },
+    {
+      "category": "Product D",
+      "sales": 60,
+      "profit": 10,
+      "customers": 25
+    },
+      {
+      "category": "Product E",
+      "sales": 100,
+      "profit": 25,
+      "customers": 48
+    },
+    {
+      "category": "Product F",
+      "sales": 130,
+      "profit": 35,
+      "customers": 62
+    },
+      {
+      "category": "Product G",
+      "sales": 90,
+      "profit": 20,
+      "customers": 40
+    }
+  ]

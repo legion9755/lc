@@ -1,0 +1,27 @@
+/* App.css */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+    background-color: #f0f0f0; /* Light gray background for navbar */
+    padding: 10px 0; /* Add some padding */
+}
+
+nav li {
+    margin: 0 15px; /* Add spacing between list items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 12px; /* Add padding to links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+nav a:hover {
+    background-color: #ddd; /* Darker gray on hover */
+}

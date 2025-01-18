@@ -1,0 +1,107 @@
+/* DataIntegration.css */
+.data-integration-container {
+    padding: 20px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+.upload-section {
+    background-color: #f8f8f8;
+    border: 1px dashed #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center; /* Center text within upload section */
+    width: 80%; /* Limit width on larger screens */
+    max-width: 600px;
+}
+
+.instructions {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.file-upload {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.loading-spinner {
+    margin-top: 10px;
+    font-style: italic;
+    color: #777;
+    animation: pulse 1.5s infinite; /* Add pulse animation */
+}
+
+@keyframes pulse {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.data-display {
+    width: 90%;
+    max-width: 900px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.data-content {
+    overflow-x: auto; /* Add horizontal scroll if table is too wide */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.save-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.save-button:hover {
+    background-color: #0056b3;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+    animation: fadeOut 3s forwards; /* Fade out animation */
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
