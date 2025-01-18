@@ -1,4 +1,13 @@
 /* HomePage.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    color: #333;
+    background-image: url("/bg2.jpg"); /* Replace with your image path */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-attachment: fixed; /* Optional: Make the background fixed while scrolling */
+  }
 .home-container {
     display: flex;
     flex-direction: column;
